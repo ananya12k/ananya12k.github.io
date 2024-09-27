@@ -1,1 +1,136 @@
+# Site settings
+title: "Ananya Kulkarni's Academic Website"
+email: "ananyakulkarni2103@gmail.com"
+description: "Showcasing my research, projects, and academic work."
+baseurl: "" # Leave empty for the root of your site
+url: "https://ananya12k.github.io" # Replace with your GitHub Pages URL
+avatar: "/images/profile.jpg" # Path to your profile picture
+theme: "al-folio"
 
+# Social media links
+social_links:
+  - {
+      name: "Click to Call",
+      link: "tel:+917802032289",
+      icon: "fas fa-mobile-alt",
+    }
+  - {
+      name: "Email",
+      link: "mailto:ananyakulkarni2103@gmail.com",
+      icon: "fas fa-envelope",
+    }
+  - {
+      name: "LinkedIn",
+      link: "https://linkedin.com/in/ananya-kulkarni-609213244",
+      icon: "fab fa-linkedin",
+    }
+  - {
+      name: "GitHub",
+      link: "https://github.com/ananya12k",
+      icon: "fab fa-github",
+    }
+  - {
+      name: "Medium",
+      link: "https://medium.com/@ananyakulkarni1203",
+      icon: "fab fa-medium",
+    }
+  - {
+      name: "Google Scholar",
+      link: "https://scholar.google.com/citations?user=GddubbUAAAAJ",
+      icon: "fas fa-graduation-cap",
+    }
+
+# Collections configuration
+collections:
+  about:
+    output: true
+  blog:
+    output: true
+  projects:
+    output: true
+  publications:
+    output: true
+  cv:
+    output: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-search
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page:num/"
+
+# # Google Analytics (optional)
+# google_analytics: "UA-XXXXXX-X" # Replace with your Google Analytics tracking ID if applicable
+
+# Math support (for LaTeX)
+use_math: true
+
+# Default configuration for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Ananya Kulkarni"
+
+# Exclude certain files and folders
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+  - _config.yml
+  - search.json
+
+# Configuration for Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Theme options (specific to al-folio)
+sidebar:
+  avatar: true
+  name: "Ananya Kulkarni"
+  title: "Researcher & Developer"
+  social_links:
+    - {
+        name: "GitHub",
+        link: "https://github.com/ananya12k",
+        icon: "fab fa-github",
+      }
+    - {
+        name: "LinkedIn",
+        link: "https://linkedin.com/in/ananya-kulkarni-609213244",
+        icon: "fab fa-linkedin",
+      }
+    - {
+        name: "Email",
+        link: "mailto:ananyakulkarni2103@gmail.com",
+        icon: "fas fa-envelope",
+      }
+    - {
+        name: "Google Scholar",
+        link: "https://scholar.google.com/citations?user=GddubbUAAAAJ",
+        icon: "fas fa-graduation-cap",
+      }
+    - {
+        name: "Medium",
+        link: "https://medium.com/@ananyakulkarni1203",
+        icon: "fab fa-medium",
+      }
+
+# Additional customization options
+enable_dark_mode: true

@@ -1,0 +1,46 @@
+<!-- _includes/header.html -->
+
+<header>
+  <nav>
+    <ul>
+      {% for item in site.data.navigation.main %}
+      <li>
+        <a href="{{ item.link }}">
+          <i class="{{ item.icon }}"></i> {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <!-- Search Bar -->
+  <input type="text" placeholder="Search..." id="search-bar" />
+  <button id="search-button">
+    <svg><!-- Add your search icon SVG code here --></svg>
+  </button>
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle">🌙</button>
+</header>
+
+<script>
+  // Theme toggle JavaScript
+  const toggleTheme = document.getElementById("theme-toggle");
+  const currentTheme = localStorage.getItem("theme") || "light";
+
+  if (currentTheme === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleTheme.textContent = "🌞";
+  }
+
+  toggleTheme.onclick = () => {
+    let theme = document.documentElement.getAttribute("data-theme");
+    if (theme === "light") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+      toggleTheme.textContent = "🌞";
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
+      toggleTheme.textContent = "🌙";
+    }
+  };
+</script>
