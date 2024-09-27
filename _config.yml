@@ -5,7 +5,8 @@ description: "Showcasing my research, projects, and academic work."
 baseurl: "" # Leave empty for the root of your site
 url: "https://ananya12k.github.io" # Replace with your GitHub Pages URL
 avatar: "/images/profile.jpg" # Path to your profile picture
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "academicpages/academicpages.github.io"
+
 # remote_theme: "alshedivat/al-folio"
 
 # Social media links
