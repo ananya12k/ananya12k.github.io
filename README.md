@@ -1,4 +1,4 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# [Ananya's Portfolio Website](https://ananya12k.github.io/)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
 
