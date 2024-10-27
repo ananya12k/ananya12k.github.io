@@ -72,17 +72,22 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.Tech Information Technology
+    institution: Dharmasinh Desai University
+    date_start: 2016-10-17
+    date_end: Present
     summary: |
-      GPA: 3.4/4.0
+      CGPA: 8.61/10.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Data Structures and Algorithms
+      - Database Management Systems
+      - Operating Systems
+      - Computer Networks
+      - Machine Learning and Deep Learning
+      - Data Mining
+      - Artificial Intelligence
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
