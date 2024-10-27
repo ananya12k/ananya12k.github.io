@@ -213,4 +213,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ananya Vivek Kulkarni is a final year BTech student in Information Technology at Dharmsinh Desai University. Her research interests include natural language processing, computer vision, and AI-driven solutions for real-world challenges. She has led projects such as the SMART NOTE:::BOOK, an IoT-based text-to-Braille converter, and worked on AI-based leak detection models at the Defence Institute of Advanced Technology (DRDO).
