@@ -52,21 +52,15 @@ interests:
   - Computational Linguistics
 
 education:
-  - area: B.Tech Information Technology
-    institution: Dharmasinh Desai University
-    date_start: 2021-10-17
-    date_end: Present
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      CGPA: 8.61/10.0
-
-      Courses included:
-      - Data Structures and Algorithms
-      - Database Management Systems
-      - Operating Systems
-      - Computer Networks
-      - Machine Learning and Deep Learning
-      - Data Mining
-      - Artificial Intelligence
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: "Read Thesis"
+      url: "https://example.com"
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
@@ -219,4 +213,4 @@ awards:
 
 ## About Me
 
-I am a final year BTech student in IT at Dharmsinh Desai University with a strong background in natural language processing, computer vision, and deep learning. My research focuses on AI-driven solutions for real-world challenges, including visibility enhancement and low-resource language processing. I’ve led the "SMART NOTE:::BOOK" project, an IoT text-to-Braille converter, and developed AI models for leak detection at DRDO. My work has earned recognition, including the Best Paper Award at ASCIS 2023.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
