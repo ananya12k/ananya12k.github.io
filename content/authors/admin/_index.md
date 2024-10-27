@@ -219,4 +219,4 @@ awards:
 
 ## About Me
 
-I am a final year BTech student in IT at Dharmsinh Desai University with a strong background in natural language processing, computer vision, and deep learning. My research focuses on solving real-world challenges through AI, particularly in areas like visibility enhancement and low-resource language processing. I have led projects such as the "SMART NOTE:::BOOK," an IoT-based text-to-Braille converter, and worked on AI-driven leak detection models at DRDO. My work has been recognized with awards, including the Best Paper Award at ASCIS 2023.
+I am a final year BTech student in IT at Dharmsinh Desai University with a strong background in natural language processing, computer vision, and deep learning. My research focuses on AI-driven solutions for real-world challenges, including visibility enhancement and low-resource language processing. I’ve led the "SMART NOTE:::BOOK" project, an IoT text-to-Braille converter, and developed AI models for leak detection at DRDO. My work has earned recognition, including the Best Paper Award at ASCIS 2023.
