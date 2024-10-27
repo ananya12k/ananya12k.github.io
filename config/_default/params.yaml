@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: indigo
+  color: emerald
 
 # SEO
 marketing:
@@ -15,7 +15,7 @@ marketing:
     local_business_type: ""
     org_name: ""
     description: "The website is created using Hugo Academic theme powered by Hugo Blox Builder. It is a simple and elegant theme for academic websites."
-    twitter: "GetResearchDev"
+    twitter: "annu92921509"
   analytics:
     google_analytics: ""
     baidu_tongji: ""
