@@ -77,7 +77,7 @@ education:
     date_start: 2016-10-17
     date_end: Present
     summary: |
-      GPA: 3.44/4.0
+      CGPA: 8.61/10.0
 
       Courses included:
       - Data Structures and Algorithms
