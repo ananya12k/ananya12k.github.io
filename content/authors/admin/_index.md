@@ -109,11 +109,9 @@ skills:
       - name: JavaScript
         icon: devicon/javascript-plain
       - name: R
-        icon: devicon/r-javascript
+        icon: devicon/r-plain
       - name: LaTeX
-        icon: devicon/tex-original
-
-  
+        icon: devicon/latex-original
 
 # Languages
 languages:
