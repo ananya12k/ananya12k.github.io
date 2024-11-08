@@ -24,13 +24,9 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
-  - block: resume-achievements
+  - block: resume-awards
     content:
-      title: Achievements
-      username: admin
-  - block: resume-courses
-    content:
-      title: Courses
+      title: Awards
       username: admin
   - block: resume-languages
     content:
