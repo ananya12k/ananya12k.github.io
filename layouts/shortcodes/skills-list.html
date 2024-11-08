@@ -8,7 +8,8 @@
   </head>
   <body>
     <div class="skills">
-      {{- $skills := .Get "skills" -}} {{- with .Site.Data.skills[$skills] -}}
+      {{- $skills := .Get "skills" -}} {{- with .Site.Data.skills[$skills] }}
+      <!-- Change this to use a valid key from your data -->
       <div class="skill-group">
         {{- range .items -}}
         <div class="skill">
