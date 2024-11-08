@@ -91,90 +91,28 @@ work:
 skills:
   - name: Languages
     icon: hb/code-bracket
-    items:
-      - name: Python
-        icon: devicon/python-plain
-      - name: Java
-        icon: devicon/java-plain
-      - name: C
-        icon: devicon/c-plain
-      - name: C++
-        icon: devicon/cplusplus-plain
-      - name: HTML
-        icon: devicon/html5-plain
-      - name: CSS
-        icon: devicon/css3-plain
-      - name: SQL
-        icon: devicon/azuresqldatabase-plain
-      - name: JavaScript
-        icon: devicon/javascript-plain
-      - name: R
-        icon: devicon/r-javascript
-      - name: LaTeX
-        icon: devicon/tex-original
+    items: |
+      **Python**, **Java**, **C**, **C++**, **HTML**, **CSS**, **SQL**, **JavaScript**, **R**, **LaTeX**
 
   - name: Frameworks
     icon: hb/circle-stack
-    items:
-      - name: Android Development
-        icon: devicon/android-plain
-      - name: Flutter
-        icon: devicon/flutter-original
-      - name: Spring Boot
-        icon: devicon/spring-original-wordmark
-      - name: Django
-        icon: devicon/django-plain
-      - name: React JS
-        icon: devicon/react-original
+    items: |
+      **Android Development**, **Flutter**, **Spring Boot**, **Django**, **React JS**
 
   - name: Development Tools
     icon: hero/wrench-screwdriver
-    items:
-      - name: Git
-        icon: devicon/git-plain
-      - name: GitHub
-        icon: devicon/github-original
-      - name: Docker
-        icon: devicon/docker-plain
-      - name: Jupyter
-        icon: devicon/jupyter-plain
-      - name: VS Code
-        icon: devicon/visualstudio-plain
-      - name: PyCharm
-        icon: devicon/pycharm-plain
-      - name: Android Studio
-        icon: devicon/android-plain
-      - name: IntelliJ IDEA
-        icon: devicon/intellij-plain
+    items: |
+      **Git**, **GitHub**, **Docker**, **Jupyter**, **VS Code**, **PyCharm**, **Android Studio**, **IntelliJ IDEA**
 
   - name: Data Science Tools
     icon: hero/chart-bar-square
-    items:
-      - name: Pandas
-        icon: devicon/pandas-plain-wordmark
-      - name: NumPy
-        icon: devicon/numpy-plain-wordmark
-      - name: Matplotlib
-        icon: devicon/matplotlib-plain
-      - name: Scikit-Learn
-        icon: devicon/scikit-plain
-      - name: TensorFlow
-        icon: devicon/tensorflow-original
-      - name: Keras
-        icon: devicon/keras-plain
-      - name: OpenCV
-        icon: devicon/opencv-plain
-      - name: PyTorch
-        icon: devicon/pytorch-plain
+    items: |
+      **Pandas**, **NumPy**, **Matplotlib**, **Scikit-Learn**, **TensorFlow**, **Keras**, **OpenCV**, **PyTorch**
+
   - name: Databases
     icon: hero/database
-    items:
-      - name: MySQL
-        icon: devicon/mysql-plain
-      - name: MongoDB
-        icon: devicon/mongodb-plain
-      - name: SQLite
-        icon: devicon/sqlite-plain
+    items: |
+      **MySQL**, **MongoDB**, **SQLite**
 
 # Languages
 languages:
