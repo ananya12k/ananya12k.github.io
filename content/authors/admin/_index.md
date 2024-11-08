@@ -88,94 +88,95 @@ work:
       - Authored a review paper on AI technologies in maritime leak detection, focusing on current trends and future directions.
 
 # Skills
-# Skills with Icons for Individual Tools
-skills:
-  - name: Languages
-    icon: hb/code
-    items:
-      - name: Python
-        icon: devicon/python-original
-      - name: Java
-        icon: devicon/java-original
-      - name: C
-        icon: devicon/c-original
-      - name: C++
-        icon: devicon/cplusplus-plain
-      - name: HTML
-        icon: devicon/html5-plain
-      - name: CSS
-        icon: devicon/css3-plain
-      - name: SQL
-        icon: devicon/sql-plain
-      - name: JavaScript
-        icon: devicon/javascript-plain
-      - name: R
-        icon: devicon/r-original
+Languages:
+  icon: hb/code-bracket
+  items:
+    - name: Python
+      icon: devicon/python-plain
+    - name: Java
+      icon: devicon/java-plain
+    - name: C
+      icon: devicon/c-plain
+    - name: C++
+      icon: devicon/cplusplus-plain
+    - name: HTML
+      icon: devicon/html5-plain
+    - name: CSS
+      icon: devicon/css3-plain
+    - name: SQL
+      icon: devicon/azuresqldatabase-plain
+    - name: JavaScript
+      icon: devicon/javascript-plain
+    - name: R
+      icon: devicon/r-javascript
+    - name: LaTeX
+      icon: devicon/tex-original
 
-  - name: Frameworks
-    icon: hb/layers
-    items:
-      - name: KivyMd
-        icon: devicon/kivy-plain
-      - name: Kivy
-        icon: devicon/kivy-plain
-      - name: Android Development
-        icon: devicon/android-plain
-      - name: Flutter
-        icon: devicon/flutter-original
-      - name: Spring Boot
-        icon: devicon/spring-plain
-      - name: Django
-        icon: devicon/django-plain
-      - name: React JS
-        icon: devicon/react-original
+Frameworks:
+  icon: hb/circle-stack
+  items:
+    - name: Android Development
+      icon: devicon/android-plain
+    - name: Flutter
+      icon: devicon/flutter-original
+    - name: Spring Boot
+      icon: devicon/spring-original-wordmark
+    - name: Django
+      icon: devicon/django-plain
+    - name: React JS
+      icon: devicon/react-original
 
-  - name: Development Tools
-    icon: hb/tools
-    items:
-      - name: Git
-        icon: devicon/git-plain
-      - name: GitHub
-        icon: devicon/github-original
+Development Tools:
+  icon: hero/wrench-screwdriver
+  items:
+    - name: Git
+      icon: devicon/git-plain
+    - name: GitHub
+      icon: devicon/github-original
+    - name: Docker
+      icon: devicon/docker-plain
+    - name: Jupyter
+      icon: devicon/jupyter-plain
+    - name: VS Code
+      icon: devicon/visualstudio-plain
+    - name: PyCharm
+      icon: devicon/pycharm-plain
+    - name: Android Studio
+      icon: devicon/android-plain
+    - name: IntelliJ IDEA
+      icon: devicon/intellij-plain
 
-  - name: Data Science Tools
-    icon: hb/chart-line
-    items:
-      - name: Pandas
-        icon: devicon/pandas-original
-      - name: NumPy
-        icon: devicon/numpy-original
-      - name: Matplotlib
-        icon: devicon/matplotlib-plain
-      - name: Scikit-Learn
-        icon: devicon/scikit-original
-      - name: NLTK
-        icon: devicon/nltk-plain
-      - name: Statistics
-        icon: hero/chart-bar
+Data Science Tools:
+  icon: hero/chart-bar-square
+  items:
+    - name: Pandas
+      icon: devicon/pandas-plain-wordmark
+    - name: NumPy
+      icon: devicon/numpy-plain-wordmark
+    - name: Matplotlib
+      icon: devicon/matplotlib-plain
+    - name: Scikit-Learn
+      icon: devicon/scikit-plain
+    - name: TensorFlow
+      icon: devicon/tensorflow-original
+    - name: Keras
+      icon: devicon/keras-plain
+    - name: OpenCV
+      icon: devicon/opencv-plain
+    - name: PyTorch
+      icon: devicon/pytorch-plain
 
-  - name: Productivity Tools
-    icon: hb/tasks
-    items:
-      - name: PowerPoint
-        icon: devicon/powerpoint-plain
-      - name: Word
-        icon: devicon/word-plain
-      - name: Excel
-        icon: devicon/excel-plain
-      - name: Trello
-        icon: hero/clipboard
+Databases:
+  icon: hero/database
+  items:
+    - name: MySQL
+      icon: devicon/mysql-plain
+    - name: MongoDB
+      icon: devicon/mongodb-plain
+    - name: SQLite
+      icon: devicon/sqlite-plain
 
-  - name: Soft Skills
-    icon: hb/handshake
-    items:
-      - Leadership
-      - Event Management
-      - Creative Writing
-      - Time Management
-      - Teamwork
-      - Problem Solving
-
+# Languages
 languages:
   - name: English
     percent: 100
