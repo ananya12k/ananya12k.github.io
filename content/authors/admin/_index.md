@@ -91,85 +91,83 @@ work:
 # Skills with Icons for Individual Tools
 skills:
   - name: Languages
-    icon: code
+    icon: hb/code
     items:
-      - name: Java
-        icon: brands/java
-      - name: C
-        icon: file-code
-      - name: C++
-        icon: file-code
-      - name: HTML
-        icon: brands/html5
-      - name: CSS
-        icon: brands/css3
       - name: Python
-        icon: brands/python
+        icon: devicon/python-original
+      - name: Java
+        icon: devicon/java-original
+      - name: C
+        icon: devicon/c-original
+      - name: C++
+        icon: devicon/cplusplus-plain
+      - name: HTML
+        icon: devicon/html5-plain
+      - name: CSS
+        icon: devicon/css3-plain
       - name: SQL
-        icon: database
-      - name: PostgreSQL
-        icon: database
+        icon: devicon/sql-plain
       - name: JavaScript
-        icon: brands/js
+        icon: devicon/javascript-plain
       - name: R
-        icon: brands/r-project
+        icon: devicon/r-original
 
   - name: Frameworks
-    icon: layer-group
+    icon: hb/layers
     items:
       - name: KivyMd
-        icon: mobile-alt
+        icon: devicon/kivy-plain
       - name: Kivy
-        icon: mobile-alt
+        icon: devicon/kivy-plain
       - name: Android Development
-        icon: brands/android
+        icon: devicon/android-plain
       - name: Flutter
-        icon: brands/flutter
+        icon: devicon/flutter-original
       - name: Spring Boot
-        icon: leaf
+        icon: devicon/spring-plain
       - name: Django
-        icon: leaf
+        icon: devicon/django-plain
       - name: React JS
-        icon: brands/react
+        icon: devicon/react-original
 
   - name: Development Tools
-    icon: tools
+    icon: hb/tools
     items:
       - name: Git
-        icon: code-branch
+        icon: devicon/git-plain
       - name: GitHub
-        icon: brands/github
+        icon: devicon/github-original
 
   - name: Data Science Tools
-    icon: chart-line
+    icon: hb/chart-line
     items:
       - name: Pandas
-        icon: table
+        icon: devicon/pandas-original
       - name: NumPy
-        icon: project-diagram
+        icon: devicon/numpy-original
       - name: Matplotlib
-        icon: chart-bar
+        icon: devicon/matplotlib-plain
       - name: Scikit-Learn
-        icon: flask
+        icon: devicon/scikit-original
       - name: NLTK
-        icon: language
+        icon: devicon/nltk-plain
       - name: Statistics
-        icon: percentage
+        icon: hero/chart-bar
 
   - name: Productivity Tools
-    icon: tasks
+    icon: hb/tasks
     items:
       - name: PowerPoint
-        icon: file-powerpoint
+        icon: devicon/powerpoint-plain
       - name: Word
-        icon: file-word
+        icon: devicon/word-plain
       - name: Excel
-        icon: file-excel
+        icon: devicon/excel-plain
       - name: Trello
-        icon: list
+        icon: hero/clipboard
 
   - name: Soft Skills
-    icon: handshake
+    icon: hb/handshake
     items:
       - Leadership
       - Event Management
