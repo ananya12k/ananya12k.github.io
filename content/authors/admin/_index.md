@@ -48,121 +48,135 @@ interests:
   - Natural Language Processing
   - Computational Linguistics
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Technology in Information Technology
+    institution: Dharmsinh Desai University
+    date_start: 2021-10-17
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      CGPA: 8.61/10.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Significant projects and contributions:
+      - "Raspberry Pi-driven Affordable Image-to-Braille Converter for Visually Impaired Users" – Best Paper Award at ASCIS 2023.
+      - "Development of Marathi Language Parser" – In progress under Assistant Prof. Deepak Vegda.
+      - Presented papers on assistive technology and language processing at IEEE and Springer conferences.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: Higher Secondary (Class 12)
+    institution: Amity School, Bharuch
+    date_start: 2020
+    date_end: 2021
+    summary: |
+      Scored 91.2% in Class 12, CBSE Board.
+
+  - area: Secondary (Class 10)
+    institution: Amity School, Bharuch
+    date_start: 2018
+    date_end: 2019
+    summary: |
+      Scored 92.8% in Class 10, CBSE Board.
+
+# Work Experience
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ""
-    company_logo: ""
-    date_start: 2021-01-01
-    date_end: ""
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ""
-    company_logo: ""
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: Research Intern
+    company_name: Defence Institute of Advanced Technology, DRDO
+    company_url: https://www.diat.ac.in
+    company_logo: "assets/media/icons/diat_logo.jpg"
+    date_start: 2024-05-20
+    date_end: Present
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-# education:
-#   - area: B.Tech in Information Technology
-#     institution: Dharmasinh Desai University
-#     date_start: 2021-10-17
-#     date_end: Present
-#     summary: |
-#       CGPA: 8.61/10.0
+      - Developing AI-based leak detection in underground pipes for the maritime industry.
+      - Authored a review paper on AI technologies in maritime leak detection, focusing on current trends and future directions.
 
-#       Courses included:
-#       - Data Structures and Algorithms
-#       - Database Management Systems
-#       - Operating Systems
-#       - Computer Networks
-#       - Machine Learning and Deep Learning
-#       - Data Mining
-#       - Artificial Intelligence
-
-# work:
-#   - position: Research Intern
-#     company_name: Defence Institute of Advanced Technology, DRDO
-#     company_url: "www.diat.ac.in"
-#     company_logo: "static/uploads/diat_logo.jpg"
-#     date_start: 2024-05-20
-#     date_end: Present
-#     summary: |
-#       - Working on AI-based leak detection in underground pipes for the maritime industry.
-#       - Authored a review paper on AI technologies in maritime leak detection, addressing current trends and future directions.
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# Skills with Icons for Individual Tools
 skills:
-  - name: Technical Skills
+  - name: Languages
+    icon: code
     items:
+      - name: Java
+        icon: brands/java
+      - name: C
+        icon: file-code
+      - name: C++
+        icon: file-code
+      - name: HTML
+        icon: brands/html5
+      - name: CSS
+        icon: brands/css3
       - name: Python
-        description: ""
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ""
-        percent: 100
-        icon: chart-bar
+        icon: brands/python
       - name: SQL
-        description: ""
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
+        icon: database
+      - name: PostgreSQL
+        icon: database
+      - name: JavaScript
+        icon: brands/js
+      - name: R
+        icon: brands/r-project
+
+  - name: Frameworks
+    icon: layer-group
     items:
-      - name: Hiking
-        description: ""
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ""
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ""
-        percent: 80
-        icon: camera
+      - name: KivyMd
+        icon: mobile-alt
+      - name: Kivy
+        icon: mobile-alt
+      - name: Android Development
+        icon: brands/android
+      - name: Flutter
+        icon: brands/flutter
+      - name: Spring Boot
+        icon: leaf
+      - name: Django
+        icon: leaf
+      - name: React JS
+        icon: brands/react
+
+  - name: Development Tools
+    icon: tools
+    items:
+      - name: Git
+        icon: code-branch
+      - name: GitHub
+        icon: brands/github
+
+  - name: Data Science Tools
+    icon: chart-line
+    items:
+      - name: Pandas
+        icon: table
+      - name: NumPy
+        icon: project-diagram
+      - name: Matplotlib
+        icon: chart-bar
+      - name: Scikit-Learn
+        icon: flask
+      - name: NLTK
+        icon: language
+      - name: Statistics
+        icon: percentage
+
+  - name: Productivity Tools
+    icon: tasks
+    items:
+      - name: PowerPoint
+        icon: file-powerpoint
+      - name: Word
+        icon: file-word
+      - name: Excel
+        icon: file-excel
+      - name: Trello
+        icon: list
+
+  - name: Soft Skills
+    icon: handshake
+    items:
+      - Leadership
+      - Event Management
+      - Creative Writing
+      - Time Management
+      - Teamwork
+      - Problem Solving
 
 languages:
   - name: English
