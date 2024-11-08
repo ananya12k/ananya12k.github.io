@@ -53,7 +53,7 @@ education:
   - area: Bachelor of Technology in Information Technology
     institution: Dharmsinh Desai University
     date_start: 2021-10-17
-    date_end: Present
+    date_end: 2025-05-09
     summary: |
       CGPA: 8.61/10.0
 
