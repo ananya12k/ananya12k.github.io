@@ -182,51 +182,52 @@ languages:
     percent: 10
 
 #Awards
+# Awards
 awards:
   - title: Patent Filed for Real-Time Text-to-Braille Converter
-    date: September 3, 2024
+    date: 2024-09-03
     description: Filed a patent for a real-time, affordable text-to-Braille converter designed for visually impaired students, featuring AI-powered image captioning and a teacher monitoring tool.
 
   - title: Best Paper Award at ASCIS 2023 Conference
-    date: December 2023
+    date: 2023-12-01
     description: Received Best Paper Award for the project "Raspberry Pi-driven Affordable Image-to-Braille Converter for Visually Impaired Users," presented at ASCIS 2023 and published in Springer CCIS series.
 
   - title: SSIP Funding for SMART NOTE_BOOK Project
-    date: February 2023
+    date: 2023-02-01
     description: Secured full funding under the Government of Gujarat’s Student Startup Innovation Policy (SSIP) for developing SMART NOTE_BOOK, an IoT-based assistive tool converting text to Braille.
 
   - title: Top 10 Finalist in Devheat Beta Hackathon
-    date: June 2022
+    date: 2022-06-01
     description: Placed in the Top 10 finalists at Devheat Beta Hackathon, competing in a series of innovative problem-solving and coding challenges.
 
   - title: State-Level Competitor in Wizkid Spelling Bee
-    date: December 2017
+    date: 2017-12-01
     description: Competed at the state level in the Wizkid Spelling Bee Competition.
 
-  - title: AWS Academy Graduate - AWS Academy Cloud Foundations
+  - name: "AWS Academy Graduate - AWS Academy Cloud Foundations"
     provider: "Amazon Web Services (AWS)"
-    issued: "May 2024"
+    issued: 2024-05-01
     credential_url: "https://www.credly.com/badges/3d524359-15ef-42ef-a7a5-004b5e1ecf04/public_url"
     summary: "Gained foundational knowledge of cloud computing, including AWS services and cloud infrastructure."
 
-  - title: Intro to Django Python Web Apps
+  - name: "Intro to Django Python Web Apps"
     provider: "Udemy"
-    issued: "Jan 2024"
+    issued: 2024-01-01
     credential_id: "UC-8989fb08-20c3-41e1-b4dc-971ecf98e798"
     credential_url: "https://www.udemy.com/certificate/UC-8989fb08-20c3-41e1-b4dc-971ecf98e798/"
     summary: "Learned how to build web applications using Django and Python, covering database integration, templates, and deployment."
 
-  - title: Introduction to Python
+  - name: "Introduction to Python"
     provider: "DataCamp"
-    issued: "Jun 2023"
+    issued: 2023-06-01
     credential_id: "29e94875775f59d74c02e67046c38dc03364a239"
     credential_url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/29e94875775f59d74c02e67046c38dc03364a239"
     skills: "Python (Programming Language)"
     summary: "Acquired basic Python programming skills, focusing on syntax, data structures, and algorithms."
 
-  - title: Optical Character Recognition
+  - name: "Optical Character Recognition"
     provider: "Udemy"
-    issued: "Jun 2023"
+    issued: 2023-06-01
     credential_id: "UC-559243e1-bb89-4e4f-a20e-6cea27911c47"
     credential_url: "https://www.udemy.com/certificate/UC-559243e1-bb89-4e4f-a20e-6cea27911c47"
     skills: "OpenCV, Image Processing, Python (Programming Language), Computer Vision, Natural Language Processing (NLP)"
