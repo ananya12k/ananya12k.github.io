@@ -82,7 +82,7 @@ work:
   - position: Research Intern
     company_name: Defence Institute of Advanced Technology, DRDO
     company_url: "www.diat.ac.in"
-    company_logo: "ananya12k.github.io\assets\media\icons\diat_logo.jpg"
+    company_logo: "assets\media\icons\diat_logo.jpg"
     date_start: 2024-05-20
     date_end: Present
     summary: |
