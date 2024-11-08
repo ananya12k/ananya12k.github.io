@@ -48,7 +48,6 @@ interests:
   - Natural Language Processing
   - Computational Linguistics
 
-# Education
 education:
   - area: Bachelor of Technology in Information Technology
     institution: Dharmsinh Desai University
@@ -75,108 +74,67 @@ education:
     summary: |
       Scored 92.8% in Class 10, CBSE Board.
 
-# Work Experience
 work:
   - position: Research Intern
     company_name: Defence Institute of Advanced Technology, DRDO
-    company_url: https://www.diat.ac.in
-    company_logo: "assets/media/icons/diat_logo.jpg"
+    company_url: "www.diat.ac.in"
+    company_logo: "assets\media\icons\diat_logo.jpg"
     date_start: 2024-05-20
-    date_end: Present
+    date_end: 2025-05-09
     summary: |
-      - Developing AI-based leak detection in underground pipes for the maritime industry.
-      - Authored a review paper on AI technologies in maritime leak detection, focusing on current trends and future directions.
+      - Working on AI-based leak detection in underground pipes for the maritime industry.
+      - Authored a review paper on AI technologies in maritime leak detection, addressing current trends and future directions.
+# education:
+#   - area: B.Tech in Information Technology
+#     institution: Dharmasinh Desai University
+#     date_start: 2021-10-17
+#     date_end: Present
+#     summary: |
+#       CGPA: 8.61/10.0
+
+#       Courses included:
+#       - Data Structures and Algorithms
+#       - Database Management Systems
+#       - Operating Systems
+#       - Computer Networks
+#       - Machine Learning and Deep Learning
+#       - Data Mining
+#       - Artificial Intelligence
+
 
 # Skills
-# Skills with Icons for Individual Tools
+# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Languages
-    icon: code
+  - name: Technical Skills
     items:
-      - name: Java
-        icon: brands/java
-      - name: C
-        icon: file-code
-      - name: C++
-        icon: file-code
-      - name: HTML
-        icon: brands/html5
-      - name: CSS
-        icon: brands/css3
       - name: Python
-        icon: brands/python
-      - name: SQL
-        icon: database
-      - name: PostgreSQL
-        icon: database
-      - name: JavaScript
-        icon: brands/js
-      - name: R
-        icon: brands/r-project
-
-  - name: Frameworks
-    icon: layer-group
-    items:
-      - name: KivyMd
-        icon: mobile-alt
-      - name: Kivy
-        icon: mobile-alt
-      - name: Android Development
-        icon: brands/android
-      - name: Flutter
-        icon: brands/flutter
-      - name: Spring Boot
-        icon: leaf
-      - name: Django
-        icon: leaf
-      - name: React JS
-        icon: brands/react
-
-  - name: Development Tools
-    icon: tools
-    items:
-      - name: Git
-        icon: code-branch
-      - name: GitHub
-        icon: brands/github
-
-  - name: Data Science Tools
-    icon: chart-line
-    items:
-      - name: Pandas
-        icon: table
-      - name: NumPy
-        icon: project-diagram
-      - name: Matplotlib
+        description: ""
+        percent: 80
+        icon: code-bracket
+      - name: Data Science
+        description: ""
+        percent: 100
         icon: chart-bar
-      - name: Scikit-Learn
-        icon: flask
-      - name: NLTK
-        icon: language
-      - name: Statistics
-        icon: percentage
-
-  - name: Productivity Tools
-    icon: tasks
+      - name: SQL
+        description: ""
+        percent: 40
+        icon: circle-stack
+  - name: Hobbies
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
-      - name: PowerPoint
-        icon: file-powerpoint
-      - name: Word
-        icon: file-word
-      - name: Excel
-        icon: file-excel
-      - name: Trello
-        icon: list
-
-  - name: Soft Skills
-    icon: handshake
-    items:
-      - Leadership
-      - Event Management
-      - Creative Writing
-      - Time Management
-      - Teamwork
-      - Problem Solving
+      - name: Hiking
+        description: ""
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ""
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ""
+        percent: 80
+        icon: camera
 
 languages:
   - name: English
