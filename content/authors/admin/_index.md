@@ -181,7 +181,6 @@ languages:
   - name: Korean
     percent: 10
 
-#Awards
 # Awards
 awards:
   - title: Patent Filed for Real-Time Text-to-Braille Converter
@@ -204,20 +203,20 @@ awards:
     date: 2017-12-01
     description: Competed at the state level in the Wizkid Spelling Bee Competition.
 
-  - name: "AWS Academy Graduate - AWS Academy Cloud Foundations"
+  - title: "AWS Academy Graduate - AWS Academy Cloud Foundations"
     provider: "Amazon Web Services (AWS)"
     issued: 2024-05-01
     credential_url: "https://www.credly.com/badges/3d524359-15ef-42ef-a7a5-004b5e1ecf04/public_url"
     summary: "Gained foundational knowledge of cloud computing, including AWS services and cloud infrastructure."
 
-  - name: "Intro to Django Python Web Apps"
+  - title: "Intro to Django Python Web Apps"
     provider: "Udemy"
     issued: 2024-01-01
     credential_id: "UC-8989fb08-20c3-41e1-b4dc-971ecf98e798"
     credential_url: "https://www.udemy.com/certificate/UC-8989fb08-20c3-41e1-b4dc-971ecf98e798/"
     summary: "Learned how to build web applications using Django and Python, covering database integration, templates, and deployment."
 
-  - name: "Introduction to Python"
+  - title: "Introduction to Python"
     provider: "DataCamp"
     issued: 2023-06-01
     credential_id: "29e94875775f59d74c02e67046c38dc03364a239"
@@ -225,7 +224,7 @@ awards:
     skills: "Python (Programming Language)"
     summary: "Acquired basic Python programming skills, focusing on syntax, data structures, and algorithms."
 
-  - name: "Optical Character Recognition"
+  - title: "Optical Character Recognition"
     provider: "Udemy"
     issued: 2023-06-01
     credential_id: "UC-559243e1-bb89-4e4f-a20e-6cea27911c47"
