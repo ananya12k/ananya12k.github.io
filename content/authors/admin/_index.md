@@ -91,28 +91,29 @@ work:
 skills:
   - name: Languages
     icon: hb/code-bracket
-    items: |
-      **Python**, **Java**, **C**, **C++**, **HTML**, **CSS**, **SQL**, **JavaScript**, **R**, **LaTeX**
+    items:
+      - name: Python
+        icon: devicon/python-plain
+      - name: Java
+        icon: devicon/java-plain
+      - name: C
+        icon: devicon/c-plain
+      - name: C++
+        icon: devicon/cplusplus-plain
+      - name: HTML
+        icon: devicon/html5-plain
+      - name: CSS
+        icon: devicon/css3-plain
+      - name: SQL
+        icon: devicon/azuresqldatabase-plain
+      - name: JavaScript
+        icon: devicon/javascript-plain
+      - name: R
+        icon: devicon/r-javascript
+      - name: LaTeX
+        icon: devicon/tex-original
 
-  - name: Frameworks
-    icon: hb/circle-stack
-    items: |
-      **Android Development**, **Flutter**, **Spring Boot**, **Django**, **React JS**
-
-  - name: Development Tools
-    icon: hero/wrench-screwdriver
-    items: |
-      **Git**, **GitHub**, **Docker**, **Jupyter**, **VS Code**, **PyCharm**, **Android Studio**, **IntelliJ IDEA**
-
-  - name: Data Science Tools
-    icon: hero/chart-bar-square
-    items: |
-      **Pandas**, **NumPy**, **Matplotlib**, **Scikit-Learn**, **TensorFlow**, **Keras**, **OpenCV**, **PyTorch**
-
-  - name: Databases
-    icon: hero/database
-    items: |
-      **MySQL**, **MongoDB**, **SQLite**
+  
 
 # Languages
 languages:
