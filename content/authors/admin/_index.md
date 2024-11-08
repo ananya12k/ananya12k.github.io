@@ -90,7 +90,6 @@ work:
 # Skills
 skills:
   - name: Languages
-    icon: hb/code-bracket
     items:
       - name: Python
         icon: devicon/python-plain
@@ -112,6 +111,56 @@ skills:
         icon: devicon/r-plain
       - name: LaTeX
         icon: devicon/latex-original
+  - name: Frameworks
+    items:
+      - name: Android Development
+        icon: devicon/android-plain
+      - name: Flutter
+        icon: devicon/flutter-original
+      - name: Spring Boot
+        icon: devicon/spring-original-wordmark
+      - name: Django
+        icon: devicon/django-plain
+      - name: React JS
+        icon: devicon/react-original
+
+  - name: Development Tools
+    items:
+      - name: Git
+        icon: devicon/git-plain
+      - name: GitHub
+        icon: devicon/github-original
+      - name: Docker
+        icon: devicon/docker-plain
+      - name: Jupyter
+        icon: devicon/jupyter-original-wordmark
+      - name: VS Code
+        icon: devicon/vscode-original
+      - name: PyCharm
+        icon: devicon/pycharm-original
+      - name: Android Studio
+        icon: devicon/androidstudio-original
+      - name: IntelliJ IDEA
+        icon: devicon/intellij-original
+
+  - name: Data Science Tools
+    items:
+      - name: Pandas
+        icon: devicon/pandas-original
+      - name: NumPy
+        icon: devicon/numpy-original
+      - name: Matplotlib
+        icon: devicon/matplotlib-original
+      - name: Scikit-Learn
+        icon: devicon/scikit-original
+      - name: TensorFlow
+        icon: devicon/tensorflow-original
+      - name: Keras
+        icon: devicon/keras-original
+      - name: OpenCV
+        icon: devicon/opencv-original
+      - name: PyTorch
+        icon: devicon/pytorch-original
 
 # Languages
 languages:
