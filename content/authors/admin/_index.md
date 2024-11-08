@@ -91,28 +91,28 @@ work:
 
 ### Languages
 {{ range .Site.Data.skills.Languages.items }}
-- **{{ .name }}**: ![icon](/assets/media/icons/{{ .icon }}.svg)  
+- **{{ .name }}** ![icon](/assets/media/icons/{{ .icon }}.svg)  
 {{ end }}
 
 ### Frameworks
 {{ range .Site.Data.skills.Frameworks.items }}
-- **{{ .name }}**: ![icon](/assets/media/icons/{{ .icon }}.svg)  
+- **{{ .name }}** ![icon](/assets/media/icons/{{ .icon }}.svg)  
 {{ end }}
 
 ### Development Tools
 {{ range .Site.Data.skills["Development Tools"].items }}
-- **{{ .name }}**: ![icon](/assets/media/icons/{{ .icon }}.svg)  
+- **{{ .name }}** ![icon](/assets/media/icons/{{ .icon }}.svg)  
 {{ end }}
 
 ### Data Science Tools
 {{ range .Site.Data.skills["Data Science Tools"].items }}
-- **{{ .name }}**: ![icon](/assets/media/icons/{{ .icon }}.svg)  
+- **{{ .name }}** ![icon](/assets/media/icons/{{ .icon }}.svg)  
 {{ end }}
 
 ### Databases
 {{ range .Site.Data.skills.Databases.items }}
-- **{{ .name }}**: ![icon](/assets/media/icons/{{ .icon }}.svg)  
-{{ end }
+- **{{ .name }}** ![icon](/assets/media/icons/{{ .icon }}.svg)  
+{{ end }}
 
 # Languages
 languages:

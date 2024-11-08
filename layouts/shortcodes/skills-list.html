@@ -8,17 +8,25 @@
   </head>
   <body>
     <div class="skills">
-      {{- $skills := .Get "skills" -}} {{- with .Site.Data.skills[$skills] }}
-      <!-- Change this to use a valid key from your data -->
+      {{- $skills := .Get "skills" -}}
+      <!-- Get the skills key from the shortcode parameter -->
+      {{- with .Site.Data.skills[$skills] }}
+      <!-- Use $skills as the key to access the data -->
       <div class="skill-group">
-        {{- range .items -}}
+        {{- range .items }}
+        <!-- Iterate over the items in the selected skill group -->
         <div class="skill">
           <i class="devicon {{ .icon }}"></i>
+          <!-- Display the icon -->
           <span>{{ .name }}</span>
+          <!-- Display the name of the skill -->
         </div>
-        {{- end -}}
+        {{- end }}
       </div>
-      {{- end -}}
+      {{- else }}
+      <p>No skills found.</p>
+      <!-- In case there is no matching data -->
+      {{- end }}
     </div>
   </body>
 </html>
