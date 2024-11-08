@@ -2,9 +2,6 @@
 # Display name
 title: Ananya Vivek Kulkarni
 
-# # Name pronunciation (optional)
-# name_pronunciation: Chien Shiung Wu
-
 # Full name (for SEO)
 first_name: Ananya Vivek
 last_name: Kulkarni
@@ -84,7 +81,7 @@ work:
     company_url: "www.diat.ac.in"
     company_logo: "assets\media\icons\diat_logo.jpg"
     date_start: 2024-05-20
-    date_end: Present
+    date_end: 2025-05-09
     summary: |
       - Working on AI-based leak detection in underground pipes for the maritime industry.
       - Authored a review paper on AI technologies in maritime leak detection, addressing current trends and future directions.
