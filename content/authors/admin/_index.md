@@ -63,15 +63,15 @@ education:
 
   - area: Higher Secondary (Class 12)
     institution: Amity School, Bharuch
-    date_start: 2020
-    date_end: 2021
+    date_start: 2020-04-01
+    date_end: 2021-07-31
     summary: |
       Scored 91.2% in Class 12, CBSE Board.
 
   - area: Secondary (Class 10)
     institution: Amity School, Bharuch
-    date_start: 2018
-    date_end: 2019
+    date_start: 2018-04-01
+    date_end: 2019-05-06
     summary: |
       Scored 92.8% in Class 10, CBSE Board.
 
@@ -161,12 +161,6 @@ skills:
         icon: devicon/opencv-original
       - name: PyTorch
         icon: devicon/pytorch-original
-  - name: Hobbies
-    items:
-      - name: Reading
-      - name: Writing
-      - name: Cooking
-      - name: Travelling
 
 # Languages
 languages:
