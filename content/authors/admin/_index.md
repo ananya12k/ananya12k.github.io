@@ -181,7 +181,7 @@ awards:
     url: ""
     date: "2024-09-03"
     awarder: "Patent"
-    icon: "brands/patent_logo" # Add a logo or icon representing a patent here if you have one
+    icon: "" # Add a logo or icon representing a patent here if you have one
     summary: |
       Filed a patent for a real-time, affordable text-to-Braille converter designed for visually impaired students, featuring AI-powered image captioning and a teacher monitoring tool.
 
@@ -189,7 +189,7 @@ awards:
     url: ""
     date: "2023-12-01"
     awarder: "ASCIS 2023"
-    icon: "brands/ascis_2023" # You can add an ASCIS logo here
+    icon: "" # You can add an ASCIS logo here
     summary: |
       Received Best Paper Award for the project "Raspberry Pi-driven Affordable Image-to-Braille Converter for Visually Impaired Users," presented at ASCIS 2023 and published in Springer CCIS series.
 
@@ -197,7 +197,7 @@ awards:
     url: "#"
     date: "2023-02-01"
     awarder: "SSIP"
-    icon: "brands/ssip" # Add SSIP logo if available
+    icon: "" # Add SSIP logo if available
     summary: |
       Secured full funding under the Government of Gujarat’s Student Startup Innovation Policy (SSIP) for developing SMART NOTE_BOOK, an IoT-based assistive tool converting text to Braille.
 
@@ -237,7 +237,7 @@ awards:
     url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/29e94875775f59d74c02e67046c38dc03364a239"
     date: "2023-06-01"
     awarder: "DataCamp"
-    icon: "logos/datacamp" # DataCamp logo
+    icon: "brands/datacamp" # DataCamp logo
     summary: |
       Acquired basic Python programming skills, focusing on syntax, data structures, and algorithms.
 
@@ -245,7 +245,7 @@ awards:
     url: "https://www.udemy.com/certificate/UC-559243e1-bb89-4e4f-a20e-6cea27911c47"
     date: "2023-06-01"
     awarder: "Udemy"
-    icon: "logos/udemy" # Udemy logo
+    icon: "brands/udemy" # Udemy logo
     summary: |
       Developed expertise in using OpenCV and Python to implement OCR for extracting text from images, with applications in computer vision and NLP.
 ---
