@@ -181,7 +181,7 @@ awards:
     url: ""
     date: "2024-09-03"
     awarder: "Patent"
-    icon: "logos/patent_logo.jpeg" # Add a logo or icon representing a patent here if you have one
+    icon: "brands/patent_logo" # Add a logo or icon representing a patent here if you have one
     summary: |
       Filed a patent for a real-time, affordable text-to-Braille converter designed for visually impaired students, featuring AI-powered image captioning and a teacher monitoring tool.
 
@@ -189,7 +189,7 @@ awards:
     url: ""
     date: "2023-12-01"
     awarder: "ASCIS 2023"
-    icon: "logos/ascis_2023.png" # You can add an ASCIS logo here
+    icon: "brands/ascis_2023" # You can add an ASCIS logo here
     summary: |
       Received Best Paper Award for the project "Raspberry Pi-driven Affordable Image-to-Braille Converter for Visually Impaired Users," presented at ASCIS 2023 and published in Springer CCIS series.
 
@@ -197,7 +197,7 @@ awards:
     url: "#"
     date: "2023-02-01"
     awarder: "SSIP"
-    icon: "logos/ssip.png" # Add SSIP logo if available
+    icon: "brands/ssip" # Add SSIP logo if available
     summary: |
       Secured full funding under the Government of Gujarat’s Student Startup Innovation Policy (SSIP) for developing SMART NOTE_BOOK, an IoT-based assistive tool converting text to Braille.
 
@@ -221,7 +221,7 @@ awards:
     url: "https://www.credly.com/badges/3d524359-15ef-42ef-a7a5-004b5e1ecf04/public_url"
     date: "2024-05-01"
     awarder: "Amazon Web Services (AWS)"
-    icon: "logos/aws.png" # AWS logo
+    icon: "brands/aws" # AWS logo
     summary: |
       Gained foundational knowledge of cloud computing, including AWS services and cloud infrastructure.
 
@@ -229,7 +229,7 @@ awards:
     url: "https://www.udemy.com/certificate/UC-8989fb08-20c3-41e1-b4dc-971ecf98e798/"
     date: "2024-01-01"
     awarder: "Udemy"
-    icon: "logos/udemy" # Udemy logo
+    icon: "brands/udemy" # Udemy logo
     summary: |
       Learned how to build web applications using Django and Python, covering database integration, templates, and deployment.
 
