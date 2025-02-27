@@ -21,6 +21,8 @@ role: Senior Year Student, Department of Information Technology, Dharmasinh Desa
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
+  - name: Space Applications Centre, ISRO
+    url: https://www.sac.gov.in/Vyom/
   - name: DIAT, DRDO
     url: https://www.diat.ac.in/
   - name: DDIT, Nadiad
@@ -78,11 +80,20 @@ education:
 # Work Experience
 work:
   - position: Research Intern
+    company_name: Space Applications Centre, ISRO
+    company_url: https://www.sac.gov.in/Vyom/
+    company_logo: "assets/media/icons/sac_logo.jpg"
+    date_start: 2023-12-02
+    date_end: ""
+    summary: |
+      - Working on Emulator for Radiative Transfer Models (RTM) for Greenhouse Gases (GHGs) in the atmosphere.
+
+  - position: Research Intern
     company_name: Defence Institute of Advanced Technology, DRDO
     company_url: https://www.diat.ac.in
     company_logo: "assets/media/icons/diat_logo.jpg"
     date_start: 2024-05-20
-    date_end: ""
+    date_end: 2024-07-04
     summary: |
       - Developing AI-based leak detection in underground pipes for the maritime industry.
       - Authored a review paper on AI technologies in maritime leak detection, focusing on current trends and future directions.
