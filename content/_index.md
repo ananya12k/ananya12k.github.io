@@ -32,16 +32,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "📚 My Research"
+      subtitle: ""
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a final year BTech student in IT at Dharmsinh Desai University, passionate about applying AI to real-world challenges. I have a very keen interest in natural language processing, computer vision, and deep learning. I have developed AI models for leak detection at DRDO and led the development of an IoT-based text-to-Braille converter.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        Feel free to reach out for collaboration! 😃
     design:
-      columns: '1'
+      columns: "1"
   - block: collection
     id: papers
     content:
@@ -77,8 +75,8 @@ sections:
     id: news
     content:
       title: Recent News
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
@@ -112,7 +110,7 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
