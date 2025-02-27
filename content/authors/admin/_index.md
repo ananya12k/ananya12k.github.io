@@ -83,7 +83,7 @@ work:
     company_name: Space Applications Centre, ISRO
     company_url: https://www.sac.gov.in/Vyom/
     company_logo: "assets/media/icons/sac_logo.jpg"
-    date_start: 2023-12-02
+    date_start: 2024-12-02
     date_end: ""
     summary: |
       - Working on Emulator for Radiative Transfer Models (RTM) for Greenhouse Gases (GHGs) in the atmosphere.
