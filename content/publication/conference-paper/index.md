@@ -1,82 +1,66 @@
 ---
-title: 'An example conference paper'
+title: "Raspberry Pi-Driven Affordable Image-To-Braille Converter for Visually Impaired Users"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Ananya Kulkarni
+  - Maitri Shah
+  - Nivedita Thakur
+  - Srushti Pednekar
+  - Viral Shah
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: "2024-05-02"
+doi: "10.1007/978-3-031-59107-5_15"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: "2024-05-02"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *Advancements in Smart Computing and Information Security 2023* Springer CCIS series
+publication_short: In *ASCIS 2023* Springer CCIS series
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Addressing the growing demand for affordable assistive technology for the visually impaired, this paper introduces an innovative system for real-time image-to-Braille conversion, utilizing optical character recognition and Raspberry Pi 4 technology. The system captures text from images and converts it into Braille characters, embossed by solenoids for tactile reading. The research aims to enhance inclusivity in education and daily life for visually impaired individuals, with a particular focus on developing countries like India.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper introduces a Raspberry Pi-based system for real-time image-to-Braille conversion, designed to improve accessibility for visually impaired users. It captures text from images and translates it into Braille characters, supporting inclusivity in education and daily life. The research was supported by the Student Startup Innovation Policy (SSIP), an initiative of the Government of Gujarat, India.
 
 tags:
-  - Large Language Models
+  - Assistive Technology
+  - Braille
+  - Raspberry Pi
+  - Optical Character Recognition
+  - Visually Impaired
+  - Accessibility
+  - Real-time Conversion
 
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_pdf: ""
+url_code: "https://github.com/ananya12k/OCR_Rpi.git"
+url_dataset: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: "https://github.com/ananya12k/OCR_Rpi.git"
+url_video: "https://drive.google.com/file/d/19OJm5eHzGjmOvwQDg05KRMJ5XEQoDS-p/view?usp=sharing"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
+  caption: "featured.png"
+  focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -84,4 +68,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
