@@ -108,16 +108,16 @@ skills:
   - name: Languages
     items:
       - name: Python
-        icon: devicon/python-plain
+        icon: devicon/python
       - name: Java
-        icon: devicon/java-plain
+        icon: devicon/java
       - name: C
-        icon: devicon/c-plain
+        icon: devicon/c
       - name: C++
         icon: devicon/cplusplus-plain
-        icon: devicon/css3-plain
+        icon: devicon/css3
       - name: SQL
-        icon: devicon/azuresqldatabase-plain
+        icon: devicon/azuresqldatabase
       - name: R
         icon: devicon/r-plain
       - name: LaTeX
