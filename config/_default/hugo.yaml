@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Ananya Vivek Kulkarni | DDU IT'25
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: "https://ananya12k.github.io/"
 
 ############################
 ## LANGUAGE
@@ -32,16 +32,15 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
+  authors: "/author/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 80
   anchor: smart
-  hint: picture
 timeout: 600000
 taxonomies:
   author: authors
@@ -49,8 +48,15 @@ taxonomies:
   publication_type: publication_types
 markup:
   _merge: deep
-  highlight:
-    lineNos: false
+related:
+  threshold: 80
+  includeNewer: false
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
 security:
   _merge: deep
 sitemap:
