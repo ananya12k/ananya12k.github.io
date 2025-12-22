@@ -161,12 +161,20 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
-
 .colored-box {
   color: black;
-  padding: 20px;
-  display: inline-block;
+  width: 160px; /* fixed width */
+  height: 80px; /* fixed height */
+  display: flex; /* enable centering */
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
   border-radius: 10px;
+  text-align: center;
+}
+.colored-box h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .paper-card {
