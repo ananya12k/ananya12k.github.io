@@ -178,11 +178,31 @@ span.highlight {
 }
 
 .paper-card {
-  background-color: #ffffd0; /* same yellow as span.highlight */
+  background-color: #ffffff; /* default: white */
   border-radius: 10px;
   padding: 16px;
 }
 
+.paper-card.featured {
+  background-color: #fffacd; /* light yellow highlight only for featured card */
+}
+
 .paper-card:hover {
   background-color: #fff7b0;
+}
+
+/* constrain thumbnail area so images don't overflow their cards */
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.one img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
 }

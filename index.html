@@ -69,7 +69,7 @@ and upcoming papers at ERCICAM 2025 and ICVGIP 2025, as well as a patent on real
 
 <tr>
   <td colspan="2" style="padding:12px;">
-    <div class="paper-card" style="background-color:#fffacd;">
+    <div class="paper-card featured">
       <table style="width:100%;border-collapse:collapse;">
         <tr onmouseover="icvgip_start()" onmouseout="icvgip_stop()">
 
@@ -222,10 +222,12 @@ and upcoming papers at ERCICAM 2025 and ICVGIP 2025, as well as a patent on real
             </div>
             <script type="text/javascript">
               function braille_start() {
-                document.getElementById('rpi').style.opacity = "1";
+                var el = document.getElementById('braille_image');
+                if (el) el.style.opacity = "1";
               }
               function braille_stop() {
-                document.getElementById('rpi').style.opacity = "0";
+                var el = document.getElementById('braille_image');
+                if (el) el.style.opacity = "0";
               }
               braille_stop();
             </script>
