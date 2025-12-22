@@ -187,10 +187,6 @@ span.highlight {
   background-color: #fffacd; /* light yellow highlight only for featured card */
 }
 
-.paper-card:hover {
-  background-color: #fff7b0;
-}
-
 /* constrain thumbnail area so images don't overflow their cards */
 .one {
   width: 160px;
