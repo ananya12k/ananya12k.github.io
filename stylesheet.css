@@ -176,15 +176,6 @@ strong {
   align-items: center;
 }
 
-.eyebrow {
-  margin-bottom: 12px;
-  color: var(--accent-text);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .name {
   margin: 0 0 20px;
   font-family: var(--serif);
@@ -450,6 +441,10 @@ span.highlight {
 
 .paper-links a::after {
   content: " \2192";
+}
+
+.paper-links a + a {
+  margin-left: 16px;
 }
 
 /* ===== Miscellanea ===== */
