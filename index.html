@@ -40,9 +40,10 @@
   <nav class="topbar" id="topbar" aria-label="Sections">
     <div class="wrap topbar-inner">
       <a href="#top">About</a>
-      <a href="#updates">Updates</a>
+      <a class="nav-updates" href="#updates">Updates</a>
       <a href="#research">Research</a>
-      <a href="#miscellanea">Miscellanea</a>
+      <a href="#miscellanea"><span class="label-long">Miscellanea</span><span class="label-short">Misc</span></a>
+      <a href="#outside">After Hours</a>
     </div>
   </nav>
 
@@ -53,26 +54,29 @@
         <h1 class="name">Ananya Vivek Kulkarni</h1>
 
         <p>
-          I am an MS by Research student in Computer Science and Engineering at
+          Hi! I'm Ananya, an MS by Research student at
           <a href="https://cvit.iiit.ac.in/">CVIT, IIIT Hyderabad</a>, advised by
           Prof. <a href="https://www.iiit.ac.in/faculty/jawahar-c-v/">C. V. Jawahar</a>.
-          Alongside my MS, I lead <a href="https://inaix.iiit.ac.in/VISIA/">VISIA</a> at
-          <a href="https://inai.ai/">INAI, IIIT Hyderabad</a>, taking adverse-weather restoration
-          from research to edge deployment.
+          Alongside my MS, I develop <a href="https://inaix.iiit.ac.in/VISIA/">VISIA</a> at
+          <a href="https://inai.ai/">INAI, IIIT Hyderabad</a>, where we take adverse-weather
+          restoration from research all the way to edge devices.
         </p>
 
         <p>
-          Previously, I was a Research Intern at <a href="https://www.sac.gov.in/">SAC, ISRO</a>,
-          where I built an ML surrogate for radiative transfer models of greenhouse gases that runs
-          about 750&times; faster, and at <a href="https://www.diat.ac.in/">DIAT, DRDO</a>, where I
-          worked on deep learning–based leak detection. I received my B.Tech in Information Technology
-          from <a href="https://www.ddu.ac.in/">Dharmsinh Desai University</a>.
+          I'm curious about what happens to vision systems when the world stops being clean: how fog,
+          rain, and low light change what a model sees, and how restoration, physically grounded
+          degradation modelling, and domain adaptation can make perception reliable again. Before
+          IIIT, I built an ML surrogate for radiative transfer at <a href="https://www.sac.gov.in/">SAC,
+          ISRO</a> that runs about 750&times; faster, worked on leak detection at
+          <a href="https://www.diat.ac.in/">DIAT, DRDO</a>, and did my B.Tech at
+          <a href="https://www.ddu.ac.in/">Dharmsinh Desai University</a>.
         </p>
 
         <p>
-          My work has been published at ICVGIP, OTCON, and ERCICAM and in Springer CCIS, and received
-          a Best Paper Award at ASCIS 2023. I also have a published Indian patent application for a
-          real-time text-to-Braille converter.
+          Outside research, I recently picked up cycling and document my rides at
+          <a href="https://www.instagram.com/avk_pedals_places/">@avk_pedals_places</a>. I love reading,
+          write essays and poems on <a href="https://medium.com/@ananyakulkarni1203">Medium</a>, and
+          can't pass a beautiful view without stopping to take a picture.
         </p>
 
         <p class="open-to">
@@ -82,11 +86,13 @@
         </p>
 
         <div class="contact">
-          <a href="mailto:ananyakulkarni2103@gmail.com">Email</a>
+          <a href="mailto:ananya.kulkarni@research.iiit.ac.in">Email</a>
+          <a href="mailto:ananyakulkarni2103@gmail.com">Gmail</a>
           <a href="data/Ananya_Vivek_Kulkarni_CV.pdf">CV</a>
           <a href="https://scholar.google.com/citations?user=GddubbUAAAAJ">Scholar</a>
           <a href="https://github.com/ananya12k">Github</a>
           <a href="https://www.linkedin.com/in/ananya-kulkarni-609213244/">LinkedIn</a>
+          <a href="https://medium.com/@ananyakulkarni1203">Medium</a>
         </div>
       </div>
 
@@ -116,7 +122,7 @@
         </li>
         <li>
           <time>Jun 2025</time>
-          <span>Joined INAI, IIIT Hyderabad as an AI/ML Engineer Intern, where I now lead VISIA.</span>
+          <span>Joined INAI, IIIT Hyderabad as an AI/ML Engineer Intern, where I develop VISIA.</span>
         </li>
         <li>
           <time>Apr 2025</time>
@@ -162,6 +168,27 @@
 
       <div class="papers">
 
+        <article class="paper" id="paper-drivedefog">
+          <a class="thumb" href="images/drivedefog_figure.jpg">
+            <img src="images/drivedefog_preview.jpg"
+              alt="Synthetic fog generated from metric depth at four visibility levels, from 75 m to 200 m"
+              loading="lazy">
+          </a>
+          <div class="paper-body">
+            <p class="venue"><span class="status">Under review</span></p>
+            <h3 class="papertitle">
+              DriveDefog: Transmission-Guided Semantic-Aware Video Defogging for Driving
+            </h3>
+            <p class="authors">
+              <strong>A. Kulkarni</strong>, S. Gangisetty, C. V. Jawahar
+            </p>
+            <p>
+              A transmission-guided, semantic-aware video defogging method with temporal alignment,
+              for consistent restoration of driving videos across varying fog densities.
+            </p>
+          </div>
+        </article>
+
         <article class="paper featured" id="paper-1">
           <div class="thumb" tabindex="0" aria-label="Show restored result">
             <img src="images/awr_before.png" alt="Driving scene in adverse weather" loading="lazy">
@@ -174,7 +201,7 @@
               Framework for Adverse Weather Removal
             </h3>
             <p class="authors">
-              H. S. Mukkamala, S. Gangisetty, <strong>Ananya Vivek Kulkarni</strong>, V. G. Yalla, C. V.
+              H. S. Mukkamala, S. Gangisetty, <strong>A. Kulkarni</strong>, V. G. Yalla, C. V.
               Jawahar
             </p>
             <p>
@@ -201,7 +228,7 @@
               Improving Vehicle Visibility in Fog Environment
             </h3>
             <p class="authors">
-              <strong>Ananya Vivek Kulkarni</strong>, Zankhana Barad, Harshadkumar B. Prajapati
+              <strong>A. Kulkarni</strong>, Z. Barad, H. B. Prajapati
             </p>
             <p>
               This work combines image enhancement techniques (DCP, CLAHE) with
@@ -210,29 +237,6 @@
             </p>
             <p class="paper-links">
               <a href="https://doi.org/10.1109/OTCON65728.2025.11070636">paper</a>
-            </p>
-          </div>
-        </article>
-
-        <article class="paper" id="paper-3">
-          <div class="thumb fit">
-            <img src="images/ercicam_fa.jpg" alt="Finite automaton diagram" loading="lazy">
-          </div>
-          <div class="paper-body">
-            <p class="venue">ERCICAM 2025</p>
-            <h3 class="papertitle">
-              Gender Agreement in Indo-Aryan Languages Using Rule-Based Parsing and Finite Automata
-            </h3>
-            <p class="authors">
-              <strong>Ananya Vivek Kulkarni</strong>, Srushti Pednekar, Deepak Vegda
-            </p>
-            <p>
-              We present a rule-based syntactic parsing framework using finite automata
-              to model gender agreement in Indo-Aryan languages, combining linguistic
-              theory with computational efficiency.
-            </p>
-            <p class="paper-links">
-              <a href="https://doi.org/10.1007/978-981-92-1243-9_30">paper</a>
             </p>
           </div>
         </article>
@@ -250,8 +254,7 @@
               for Visually Impaired Users
             </h3>
             <p class="authors">
-              <strong>Ananya Vivek Kulkarni</strong>, Maitri Shah, Nivedita Thakur, Srushti Pednekar, Viral
-              H. Shah
+              <strong>A. Kulkarni</strong>, M. Shah, N. Thakur, S. Pednekar, V. H. Shah
             </p>
             <p>
               We propose a low-cost, real-time image-to-Braille conversion system
@@ -260,6 +263,29 @@
             </p>
             <p class="paper-links">
               <a href="https://doi.org/10.1007/978-3-031-59107-5_15">paper</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="paper" id="paper-3">
+          <div class="thumb fit">
+            <img src="images/ercicam_fa.jpg" alt="Finite automaton diagram" loading="lazy">
+          </div>
+          <div class="paper-body">
+            <p class="venue">ERCICAM 2025</p>
+            <h3 class="papertitle">
+              Gender Agreement in Indo-Aryan Languages Using Rule-Based Parsing and Finite Automata
+            </h3>
+            <p class="authors">
+              <strong>A. Kulkarni</strong>, S. Pednekar, D. Vegda
+            </p>
+            <p>
+              We present a rule-based syntactic parsing framework using finite automata
+              to model gender agreement in Indo-Aryan languages, combining linguistic
+              theory with computational efficiency.
+            </p>
+            <p class="paper-links">
+              <a href="https://doi.org/10.1007/978-981-92-1243-9_30">paper</a>
             </p>
           </div>
         </article>
@@ -316,12 +342,48 @@
       </div>
 
       <div class="misc-row">
-        <h3 class="misc-label" style="--tab:#edd892">Beyond Research</h3>
+        <h3 class="misc-label" style="--tab:#a9c7e8">Open Source</h3>
         <ul class="misc-list">
-          <li>Classical Bharatanatyam dancer (trained for 3 years, distinction)</li>
-          <li>Contributor to open-source climate ML projects (OpenClimateFix)</li>
-          <li>Interested in edge AI systems, low-visibility perception, and 3D scene understanding</li>
+          <li>Contributor to <a href="https://github.com/openclimatefix/graph_weather">Graph Weather</a>
+            (OpenClimateFix): implemented an Angular MSE loss using spherical harmonics to reduce the
+            spectral double penalty in weather forecasting <span class="year">(2025 – present)</span></li>
         </ul>
+      </div>
+    </section>
+
+    <section id="outside">
+      <h2>After Hours</h2>
+      <div class="beyond">
+        <article class="beyond-card">
+          <h3 class="misc-label" style="--tab:#aaba9e">Cycling</h3>
+          <p>I recently picked up cycling and I'm documenting the journey, one ride and one new place at
+            a time.</p>
+          <p class="paper-links"><a href="https://www.instagram.com/avk_pedals_places/">@avk_pedals_places on Instagram</a></p>
+        </article>
+
+        <article class="beyond-card tall">
+          <h3 class="misc-label" style="--tab:#fcb97d">Writing</h3>
+          <p>I write on Medium: essays about growing up and the world around me, poems, and the
+            occasional technical tutorial. A few favourites:</p>
+          <ul class="beyond-list">
+            <li><a href="https://medium.com/@ananyakulkarni1203/the-diary-that-grew-up-with-me-367570a4f9db">The Diary That Grew Up With Me</a> <span class="year">essay</span></li>
+            <li><a href="https://medium.com/@ananyakulkarni1203/story-of-mathematics-d00ea9312fc3">Story of Mathematics</a> <span class="year">poem</span></li>
+            <li><a href="https://medium.com/@ananyakulkarni1203/latex-tutorial-basics-for-beginners-1b2af9cc88b9">LaTeX Tutorial: Basics for Beginners</a> <span class="year">tutorial</span></li>
+          </ul>
+          <p class="paper-links"><a href="https://medium.com/@ananyakulkarni1203">All posts on Medium</a></p>
+        </article>
+
+        <article class="beyond-card">
+          <h3 class="misc-label" style="--tab:#c6b89e">Books and Views</h3>
+          <p>I'm usually in the middle of a book, and I can't walk past a beautiful view without stopping
+            to take a picture.</p>
+        </article>
+
+        <article class="beyond-card wide">
+          <h3 class="misc-label" style="--tab:#edd892">Bharatanatyam</h3>
+          <p>I trained in Bharatanatyam, the classical Indian dance, for three years and completed it
+            with distinction.</p>
+        </article>
       </div>
     </section>
   </main>
