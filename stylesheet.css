@@ -580,8 +580,8 @@ span.highlight {
   font-size: 14px;
 }
 
-main {
-  padding-bottom: 56px;
+main.wrap {
+  padding-bottom: 64px;
 }
 
 .credit {
@@ -659,9 +659,101 @@ main {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .topbar-inner a:first-child {
     display: none;
+  }
+}
+
+/* ===== Beyond Research ===== */
+
+.beyond {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.beyond-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+}
+
+.status {
+  padding: 1px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent-text);
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.beyond-card.tall {
+  grid-row: span 2;
+}
+
+.beyond-card.wide {
+  grid-column: 1 / -1;
+}
+
+.beyond-card .misc-label {
+  margin-bottom: 14px;
+}
+
+.beyond-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.beyond-card .paper-links {
+  margin: auto 0 0;
+}
+
+.beyond-list {
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.beyond-list li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.label-short {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .label-long {
+    display: none;
+  }
+
+  .label-short {
+    display: inline;
+  }
+}
+
+@media (max-width: 350px) {
+  .topbar-inner .nav-updates {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .beyond {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .beyond-card.tall,
+  .beyond-card.wide {
+    grid-row: auto;
+    grid-column: auto;
   }
 }
 
